@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 /dist
-
+./**/*.js
 
 # local env files
 .env.local
@@ -21,3 +21,10 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 忽略所有第二層資料夾以後的 *.js 檔案
+/**/*.js
+/**/*.js.map
+
+# 不忽略第一層資料夾裡面的 *.js 檔案
+!/*.js
