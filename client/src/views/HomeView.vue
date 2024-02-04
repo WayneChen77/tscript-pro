@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     {{ testmessage }}
-    {{ count }}
+    <span class="text-danger"> {{ count }}3345678</span> {{ count }}
     <button @click.prevent="increment()">test</button>
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
